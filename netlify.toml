@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  VITE_SUPABASE_URL = "https://flypthllagajvyuowfin.supabase.co"
+  VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZseXB0aGxsYWdhanZ5dW93ZmluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIyNDE5MjIsImV4cCI6MjA3NzgxNzkyMn0.lqNlGRWbxQjJYEManhuvfBqgUQ0Yrt_a8u2dGn43FLY"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
